@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hardik.colleges" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo_small"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.hardik.colleges.SplashScreen"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.hardik.colleges.Welcome" />
+        <activity
+            android:name="com.example.hardik.colleges.Signin"
+            android:label="@string/title_activity_signin"
+            android:parentActivityName="com.example.hardik.colleges.Welcome" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.hardik.colleges.Welcome" />
+        </activity>
+        <activity
+            android:name="com.example.hardik.colleges.Signup"
+            android:label="@string/title_activity_signup"
+            android:parentActivityName="com.example.hardik.colleges.Welcome" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.hardik.colleges.Welcome" />
+        </activity>
+        <activity
+            android:name="com.example.hardik.colleges.Search"
+            android:label="@string/title_activity_search"
+            android:parentActivityName="com.example.hardik.colleges.Signin" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.hardik.colleges.Signin" />
+        </activity>
+        <activity
+            android:name="com.example.hardik.colleges.ChooseCity"
+            android:label="@string/title_activity_choose_city"
+            android:parentActivityName="com.example.hardik.colleges.Search" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.hardik.colleges.Search" />
+        </activity>
+        <activity
+            android:name="com.example.hardik.colleges.Filter"
+            android:label="@string/title_activity_filter"
+            android:parentActivityName="com.example.hardik.colleges.Search" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.hardik.colleges.Search" />
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main" >
+        </activity>
+        <activity
+            android:name="com.example.hardik.colleges.temp_printusers"
+            android:label="@string/title_activity_temp_printusers" >
+        </activity>
+        <activity
+            android:name="com.example.hardik.colleges.PGList"
+            android:label="@string/title_activity_pglist" >
+        </activity>
+        <activity
+            android:name="com.example.hardik.colleges.PgDetails"
+            android:label="@string/title_activity_pg_details" >
+        </activity>
+        <activity
+            android:name="com.example.hardik.colleges.AddReview"
+            android:label="@string/title_activity_add_review" >
+        </activity>
+        <activity
+            android:name=".PGList1"
+            android:label="@string/title_activity_pglist1" >
+        </activity>
+    </application>
+
+</manifest>

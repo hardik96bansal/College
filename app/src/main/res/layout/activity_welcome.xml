@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#006c67">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:background="@drawable/logo"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="70dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ZEDoUS"
+        android:textAlignment="center"
+        android:id="@+id/welcome_name"
+        android:layout_gravity="center_horizontal"
+        android:textSize="50dp"
+        android:textColor="#ffffff"
+        android:layout_marginTop="15dp"
+        android:autoText="false"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="220dp">
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="SIGN IN"
+            android:textSize="25sp"
+            android:background="@drawable/button_round"
+            android:textColor="#ffffff"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:paddingRight="20dp"
+            android:paddingBottom="10dp"
+            android:layout_weight="1"
+            android:layout_marginRight="10dp"
+            android:id="@+id/sgin" />
+
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="SIGN UP"
+            android:textSize="25sp"
+            android:background="@drawable/button_round"
+            android:textColor="#ffffff"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:paddingRight="20dp"
+            android:paddingBottom="10dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/sgup" />
+
+
+
+        </LinearLayout>
+
+</LinearLayout>

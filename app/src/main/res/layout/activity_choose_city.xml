@@ -1,0 +1,36 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.hardik.colleges.ChooseCity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:background="@drawable/noida"
+        android:id="@+id/cc_bt1"
+        android:text="NORTH"
+        android:textColor="#FFFFFF"
+        android:textSize="42sp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:background="@drawable/delhi"
+        android:id="@+id/cc_bt2"
+        android:text="EAST AND WEST"
+        android:textColor="#FFFFFF"
+        android:textSize="45sp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:background="@drawable/gurgaon"
+        android:id="@+id/cc_bt3"
+        android:text="SOUTH"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp"/>
+</LinearLayout>
+
+

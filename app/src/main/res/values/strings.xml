@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Colleges</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_signin">Signin</string>
+    <string name="title_activity_signup">Signup</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_search">Search</string>
+    <string name="title_activity_choose_city">ChooseCity</string>
+    <string name="title_activity_filter">Filter</string>
+    <string name="title_activity_temp_printusers">temp_printusers</string>
+    <string name="title_activity_pglist">PGList</string>
+    <string name="title_activity_pg_details">PgDetails</string>
+    <string name="title_activity_add_review">AddReview</string>
+    <string name="title_activity_pglist1">PGList1</string>
+
+</resources>

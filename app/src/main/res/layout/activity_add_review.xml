@@ -1,0 +1,232 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    tools:context="com.example.hardik.colleges.AddReview">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#006c67">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="26sp"
+            android:textColor="#c2d700"
+            android:id="@+id/review_pgname"
+            android:layout_gravity="center"
+            android:layout_marginTop="22dp"
+            android:text="PG Name"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="Location"
+            android:layout_gravity="center"
+            android:textColor="#c2d700"
+            android:textAllCaps="true"
+            android:paddingBottom="20dp"
+            android:id="@+id/review_pgloc"/>
+
+
+        </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="58dp"
+        android:text="Service"
+        android:textAllCaps="true"
+        android:textSize="19sp"
+        android:layout_gravity="center"
+        android:textColor="#000000"/>
+
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ratingBarService"
+        android:paddingTop="8dp"
+        android:layout_gravity="center"
+        android:progressTint="#c2d700"
+        android:progressBackgroundTint="#c2d700"
+        android:secondaryProgressTint="#c2d700"
+        android:numStars="5" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="33dp"
+        android:textAllCaps="true"
+        android:text="Food"
+        android:textSize="19sp"
+        android:layout_gravity="center"
+        android:textColor="#000000"/>
+
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ratingBarFood"
+        android:paddingTop="8dp"
+        android:layout_gravity="center"
+        android:progressTint="#c2d700"
+        android:progressBackgroundTint="#c2d700"
+        android:secondaryProgressTint="#c2d700"
+        android:numStars="5" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="33dp"
+        android:textAllCaps="true"
+        android:text="Security"
+        android:textSize="19sp"
+        android:layout_gravity="center"
+        android:textColor="#000000"/>
+
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ratingBarSecurity"
+        android:paddingTop="8dp"
+        android:layout_gravity="center"
+        android:progressTint="#c2d700"
+        android:progressBackgroundTint="#c2d700"
+        android:secondaryProgressTint="#c2d700"
+        android:numStars="5" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="33dp"
+        android:textAllCaps="true"
+        android:text="Cleanliness"
+        android:textSize="19sp"
+        android:layout_gravity="center"
+        android:textColor="#000000"/>
+
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ratingBarClean"
+        android:paddingTop="8dp"
+        android:layout_gravity="center"
+        android:progressTint="#c2d700"
+        android:progressBackgroundTint="#c2d700"
+        android:secondaryProgressTint="#c2d700"
+        android:numStars="5" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="33dp"
+        android:textAllCaps="true"
+        android:text="Transportaion"
+        android:textSize="19sp"
+        android:layout_gravity="center"
+        android:textColor="#000000"/>
+
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ratingBarTrans"
+        android:paddingTop="8dp"
+        android:layout_gravity="center"
+        android:progressTint="#c2d700"
+        android:progressBackgroundTint="#c2d700"
+        android:secondaryProgressTint="#c2d700"
+        android:numStars="5" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="33dp"
+        android:textAllCaps="true"
+        android:text="Neighbourhood"
+        android:textSize="19sp"
+        android:layout_gravity="center"
+        android:textColor="#000000"/>
+
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ratingBarNeigh"
+        android:paddingTop="8dp"
+        android:layout_gravity="center"
+        android:progressTint="#c2d700"
+        android:progressBackgroundTint="#c2d700"
+        android:secondaryProgressTint="#c2d700"
+        android:numStars="5" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="33dp"
+        android:textAllCaps="true"
+        android:text="Value For Money"
+        android:textSize="19sp"
+        android:layout_gravity="center"
+        android:textColor="#000000"/>
+
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ratingBarValue"
+        android:paddingTop="8dp"
+        android:layout_gravity="center"
+        android:progressTint="#c2d700"
+        android:progressBackgroundTint="#c2d700"
+        android:secondaryProgressTint="#c2d700"
+        android:numStars="5" />
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="45dp"
+                android:layout_marginRight="45dp"
+                android:padding="15dp"
+                android:layout_marginTop="27dp"
+                android:layout_gravity="top"
+                android:minLines="4"
+                android:id="@+id/review_et"
+                android:background="@drawable/edittext_borderround"
+                android:hint="Enter Review"/>
+
+
+
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#006c67"
+                android:text="SUBMIT REVIEW"
+                android:textSize="17sp"
+                android:layout_marginTop="20dp"
+                android:id="@+id/review_submit"
+                android:textColor="#c2d700"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

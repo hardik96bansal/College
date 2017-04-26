@@ -1,0 +1,114 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="#006c67"
+    android:orientation="vertical"
+    tools:context="com.example.hardik.colleges.Filter">
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="North"
+        android:id="@+id/filter_b1"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:textColor="#c2d700"
+        android:background="@null"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="right" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ZEDoUS"
+        android:textAlignment="center"
+        android:id="@+id/filter_name"
+        android:layout_gravity="center_horizontal"
+        android:textSize="45dp"
+        android:textColor="#ffffff"
+        android:layout_marginTop="15dp"
+        android:autoText="false"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/spinner1"
+        android:background="@drawable/spinner"
+        android:padding="7dp"
+        android:gravity="center"
+
+        android:layout_alignTop="@id/filter_b1"
+        android:layout_marginTop="40dp"></Spinner>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignTop="@+id/spinner1"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/mab"
+        android:id="@+id/filter_l1">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/filter_male"
+            android:background="@null"
+            android:layout_weight="1"
+/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/filter_female"
+            android:background="@null"
+            android:layout_weight="1"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/filter_coed"
+            android:background="@null"
+            android:layout_weight="1"/>
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/filter_l1"
+        android:background="@drawable/nac"
+        android:id="@+id/filter_l2"
+        android:layout_marginTop="20dp">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/filter_ac"
+            android:background="@null"
+            android:layout_weight="1"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/filter_nonac"
+            android:background="@null"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Search"
+        android:layout_marginTop="30dp"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:background="@drawable/button_round"
+        android:id="@+id/filter_search"/>
+
+
+</LinearLayout>
